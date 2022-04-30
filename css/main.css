@@ -102,30 +102,41 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
-  background-color: rgb(27, 26, 26);
+  background-color: rgb(26, 3, 43);
 }
 
-h1 {
-    display: flex;
-    justify-content: center;
-    color: white
-}
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
   justify-content: space-between;
+  flex-flow: row wrap;
   font-weight: 700;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-flow: row wrap;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: start;
   color: #fff;
   line-height: 1.5em;
   font-size: 0.85em;
